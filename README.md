@@ -1,3 +1,14 @@
+## Configure New Ubuntu Instance
+
+### Shell/Configs
+
+Install zsh and set to default
+
+```
+sudo apt install zsh
+chsh -s $(which zsh)
+```
+
 ### Git Setup
 
 #### Generate/Add SSH Key
