@@ -1,6 +1,3 @@
-
-
-
 ### Git Setup
 
 #### Generate/Add SSH Key
@@ -20,4 +17,15 @@ git commit -am <comments>
 git remote add origin git@github.com:SeanEstey/proj.git
 git branch -M main
 git push -u origin main
+```
+
+### MongoDB Setup
+
+Open etc/mongod.conf
+
+```
+# network interfaces
+net:
+  port: 27017
+    bindIp: 127.0.0.1,<internal_ip>       # run 'ip add' to find internal ip
 ```
