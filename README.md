@@ -2,11 +2,11 @@
 
 ### Shell/Configs
 
-Install zsh and set to default
+Install fish shell
 
 ```
-sudo apt install zsh
-chsh -s $(which zsh)
+sudo apt install fish
+chsh -s /usr/bin/fish
 ```
 
 ### Git Setup
